@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+/* SECTION START YOUR BOOTSTRAP */
+
+#START-BOOTSTRAP {
+  background-color: #1abc9c;
+  text-align: center;
+  padding: 6rem;
+  color: white;
+  line-height: 50px;
+}
+
+#START-BOOTSTRAP img {
+  width: 200px;
+  height: 200px;
+}
+
+#PORTFOLIO {
+  text-align: center;
+  padding: 2px;
+}
+
+#ABOUT {
+  background-color: #1abc9c;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 30px;
+}
