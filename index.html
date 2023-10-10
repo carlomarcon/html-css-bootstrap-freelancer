@@ -19,10 +19,43 @@
   </head>
   <body>
     <!-- header -->
-    <header id="HEADER"></header>
+    <header id="HEADER" class="h-50 ms_HEADER-color">
+    
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-6 text-left">
+            <p>START BOOSTRAP</p>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+      
+          <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="color: white; ">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" style="border-color: white; background-color: white;">
+                <span class="navbar-toggler-icon"></span>
+                <div class="container d-none d-sm-block">
+                  <div class="row">
+                    <ul>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </button>
+             
+            </div>
+          </nav>
+
+        </div>
+      </div>
+    </nav>
+    </header>
     <!-- main -->
     <main>
-    <section id="START-BOOTSTRAP">
+    <section id="START-BOOTSTRAP" class="p-4">
       <div class="container text-center">
         <img src="img/avatar.svg" alt="avatar" />
         <br /><i class="fa-solid fa-star" style="color: white"></i>
@@ -30,20 +63,20 @@
         <p>Graphic Artist-Web Designer-Illustrator</p>
       </div>
     </section>
-    <section id="PORTFOLIO">
-      <div class="container">
+    <section id="PORTFOLIO" class="mt-2">
+      <div class="container p-3">
         <h1>PORTFOLIO</h1>
         <i class="fa-solid fa-star" style="color: black"></i>
       </div>
       <div class="container"></div>
 
       <div class="row gy-4">
-        <div class="col-12"><img src="img/cabin.png" alt="" /></div>
-        <div class="col-12"><img src="img/cake.png" alt="" /></div>
-        <div class="col-12"><img src="img/circus.png" alt="" /></div>
-        <div class="col-12"><img src="img/game.png" alt="" /></div>
-        <div class="col-12"><img src="img/safe.png" alt="" /></div>
-        <div class="col-12"><img src="img/submarine.png" alt="" /></div>
+        <div class="col-12 col-md-6 col-lg-4"><img src="img/cabin.png" alt="" /></div>
+        <div class="col-12 col-md-6 col-lg-4"><img src="img/cake.png" alt="" /></div>
+        <div class="col-12 col-md-6 col-lg-4"><img src="img/circus.png" alt="" /></div>
+        <div class="col-12 col-md-6 col-lg-4"><img src="img/game.png" alt="" /></div>
+        <div class="col-12 col-md-6 col-lg-4"><img src="img/safe.png" alt="" /></div>
+        <div class="col-12 col-md-6 col-lg-4"><img src="img/submarine.png" alt="" /></div>
       </div>
     </section>
     <section id="ABOUT">
@@ -54,13 +87,13 @@
         </div>
           <div class="container">
             <div class="row justify-content-center">
-          <div class="col-10 py-2">
+          <div class="col-10 py-2 col-md-5">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
             nisi inventore accusantium quos nulla facere, molestiae, suscipit,
             neque quas hic illo voluptate eum mollitia vel veniam earum ex
             ratione consequatur?
           </div>
-          <div class="col-10 py-2">
+          <div class="col-10 py-2 col-md-5">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
             molestiae, fuga alias, itaque necessitatibus labore facilis vel
             minima facere aspernatur officia! Sit enim eaque atque odit ipsum
@@ -69,7 +102,7 @@
         </div>
       
         </div>
-        <button class="btn btn-outline-light">Download <i class="fa-solid fa-download"></i> </button>
+        <button class="btn btn-outline-light mt-5">Download <i class="fa-solid fa-download"></i> </button>
       </div>
     </section>
     <section id="CONTACT-ME">
@@ -96,8 +129,24 @@
     </div>
     </div>
     </section>
-    <section id="LOCATION"></section>
+    <section id="LOCATION" class="ms_LOCATION-color p-4">
+     <div class="container">
+      <div class="row justify-content-center gap-5 text-center ">
+      <div class="col-10 lh-1">
+        <p class="fs-6">LOCATION </p> <span class="fw-normal">2215 John Daniel Drive Clark,MO 54243</span>
+      </div>
+      <div><p class="fs-6">AROUND THE WEB </p></div>
+      <div class="col-10"><p class="fs-6">ABOUT FREELANCER</p></div>
+    </div>
+     </div>
+    </section>
   </main>
-    <footer id="Copyright"></footer>
+    <footer id="Copyright" class="ms_COPYRIGHT-Color text-center">
+      <div class="p-5">
+      <p>Copyright Your Website 2019</p>
+    </div>
+    </footer>
+
+   
   </body>
 </html>

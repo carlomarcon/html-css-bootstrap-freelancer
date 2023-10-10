@@ -7,6 +7,8 @@
 :root {
   --primary-color: white;
   --secondary-color: #1abc9c;
+  --third-color: #3a546d;
+  --fourth-color: #2c3e50;
 }
 
 img {
@@ -21,6 +23,24 @@ img {
 
 .ms_greenback {
   background-color: var(--secondary-color);
+}
+
+.ms_LOCATION-color {
+  background-color: var(--third-color);
+  color: var(--primary-color);
+}
+
+.ms_COPYRIGHT-Color {
+  color: var(--primary-color);
+  background-color: var(--fourth-color);
+}
+
+.ms_HEADER-color {
+  background-color: var(--fourth-color);
+}
+
+p {
+  margin: 0;
 }
 /* SECTION START YOUR BOOTSTRAP */
 
