@@ -18,18 +18,21 @@
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
+    <!-- header -->
     <header id="HEADER"></header>
+    <!-- main -->
+    <main>
     <section id="START-BOOTSTRAP">
-      <div class="wrapper">
-        <img src="img/avatar.svg" alt="avatat" />
+      <div class="container text-center">
+        <img src="img/avatar.svg" alt="avatar" />
         <br /><i class="fa-solid fa-star" style="color: white"></i>
         <h1>START BOOTSTRAP</h1>
         <p>Graphic Artist-Web Designer-Illustrator</p>
       </div>
     </section>
     <section id="PORTFOLIO">
-      <div class="wrapper">
-        <h1 style="text-align: center">PORTFOLIO</h1>
+      <div class="container">
+        <h1>PORTFOLIO</h1>
         <i class="fa-solid fa-star" style="color: black"></i>
       </div>
       <div class="container"></div>
@@ -45,30 +48,56 @@
     </section>
     <section id="ABOUT">
     
-        
+        <div class="ms_fortext">
           <h1>About</h1>
-          <i class="fa-solid fa-star" style="color: black"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
           <div class="container">
-            <div class="row gy-4">
-          <div class="col-12">
+            <div class="row justify-content-center">
+          <div class="col-10 py-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
             nisi inventore accusantium quos nulla facere, molestiae, suscipit,
             neque quas hic illo voluptate eum mollitia vel veniam earum ex
             ratione consequatur?
           </div>
-          <div class="col-12">
+          <div class="col-10 py-2">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
             molestiae, fuga alias, itaque necessitatibus labore facilis vel
             minima facere aspernatur officia! Sit enim eaque atque odit ipsum
             corrupti provident earum.
           </div>
         </div>
-         <button class="btn btn-primary">Download</button>
+      
         </div>
+        <button class="btn btn-outline-light">Download <i class="fa-solid fa-download"></i> </button>
       </div>
     </section>
-    <section id="CONTACT ME"></section>
+    <section id="CONTACT-ME">
+     <div class="ms_fortext" style="color: black;"> 
+      <h3>CONTACT ME</h3>
+      <p>Star</p>
+    </div>
+
+      <div class="container p-4">
+        <div class="row">
+          <div class="col">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Name</li>
+        <li class="list-group-item">Email Address</li>
+        <li class="list-group-item">Phone Number</li>
+        <li class="list-group-item">Message</li>
+      </ul>
+      </div>
+      </div>
+      <div class="col mt-5">
+        <hr>
+        <a href="" class="btn btn-outline ms-3 ms_greenback">Send</a>
+      </div>
+    </div>
+    </div>
+    </section>
     <section id="LOCATION"></section>
+  </main>
     <footer id="Copyright"></footer>
   </body>
 </html>
